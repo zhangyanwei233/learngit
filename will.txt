@@ -65,9 +65,9 @@ Feature分支
 Rebase
 标签管理
 创建标签
-?	命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
-?	命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
-?	命令git tag可以查看所有标签。
+命令git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+命令git tag -a <tagname> -m "blablabla..."可以指定标签信息；
+命令git tag可以查看所有标签。
 可以用git show <tagname>查看标签信息：
 操作标签
 删除标签：git tag -d 标签
@@ -78,5 +78,9 @@ Rebase
  
 
 使用GitHub
-fork别人的，然后在自己账号下克隆到本地（git clone git@github.com:michaelliao/bootstrap.git），修改之后，可以在GitHub上发起一个pull request。当然，对方是否接受你的pull request就不一定了
- 
+fork别人的，然后在自己账号下克隆到本地（git clone git@github.com:michaelliao/bootstrap .git），修改之后，可以在GitHub上发起一个pull request。当然，对方是否接受你的pull request就不一定了
+
+忽略特殊文件
+配置别名
+
+
